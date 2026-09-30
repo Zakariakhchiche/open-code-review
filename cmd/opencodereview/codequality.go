@@ -13,8 +13,8 @@ import (
 
 // --- GitLab Code Quality report (Code Climate issue subset) ---
 //
-// GitLab renders a Code Quality artifact natively: findings appear in the
-// merge request widget and as annotations in the diff, with no API token and
+// GitLab renders a Code Quality artifact natively in the merge request
+// widget (every tier; diff annotations need Ultimate), with no API token and
 // no posting script. The report is a JSON array of issues; GitLab requires
 // description, check_name, fingerprint, severity, location.path and
 // location.lines.begin on every entry.
