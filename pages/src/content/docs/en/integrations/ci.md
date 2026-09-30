@@ -552,8 +552,9 @@ major, `medium` → minor, `low` → info. Findings without a file path
 are left out, because GitLab rejects issues that have no location;
 they remain available through `--format json`. Fingerprints match the
 SARIF ones, so GitLab tracks the same finding across pipelines instead
-of reporting it as new each time. Where the report is displayed (MR
-widget, diff annotations) depends on your GitLab version and tier.
+of reporting it as new each time. The merge request widget is available
+on every GitLab tier; inline annotations in the *Changes* tab require
+GitLab Ultimate.
 
 ### Troubleshooting
 
