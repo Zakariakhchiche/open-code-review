@@ -1,7 +1,7 @@
 # OpenCodeReview - GitLab Code Quality report (no API token, no posting script)
 #
-# Findings appear in the merge request's Code Quality widget and as
-# annotations in the "Changes" tab, using GitLab's native report artifact.
+# Findings appear in the merge request's Code Quality widget (all GitLab
+# tiers) and, on GitLab Ultimate, as annotations in the "Changes" tab.
 # Nothing is posted through the API, so fork MRs work without extra tokens.
 # Pair it with .gitlab-ci.yml (inline discussions) or use it on its own.
 #
